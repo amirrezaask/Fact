@@ -65,7 +65,6 @@ func Fact(target int, ngr int) *big.Int {
 
 func main() {
 	s := time.Now()
-	_ = Fact(500000, 1000)
+	_ = Fact(5, 5)
 	fmt.Println(time.Since(s))
-	// fmt.Println(res)
 }
